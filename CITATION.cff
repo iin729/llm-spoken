@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use this codebase, dataset, or pre-fit orality estimator, please cite the paper below."
+title: "Unlocking the Spoken Style: Mechanistic Localization and Lightweight Control of Orality in LLMs"
+authors:
+  - family-names: Anonymous
+year: 2026
+preferred-citation:
+  type: conference-paper
+  title: "Unlocking the Spoken Style: Mechanistic Localization and Lightweight Control of Orality in LLMs"
+  authors:
+    - family-names: Anonymous
+  conference:
+    name: "Proceedings of ACL"
+  year: 2026

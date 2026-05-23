@@ -1,0 +1,200 @@
+[
+  {
+    "source": "spkenwoz",
+    "spoken": "hi , this is from consumer service . may i know the information about the restaurant like the price range for the restaurant .",
+    "written": "This message originates from Consumer Services. Please provide information about the restaurant, including its price range.",
+    "instruction": "### Instruction\nYou are an expert conversationalist. Your task is to convert formal written language into spontaneous spoken language at a specified **Orality Level (0-5)** with **Semantic Preservation**. Please directly output the rewritten spoken text without any explanations or formatting symbols.\n\n### Orality Level Definitions\nYou must adjust the density of orality words and phrases, repetition, and sentence fragmentation based on the target level:\n\n- Level 0 (written): Formal structure. High lexical density. No fillers. No extra interaction. No repetition.\n- Level 1 (spoken, slight): Light contraction and mild simplification. Rare discourse markers. No repetition.\n- Level 2 (spoken, low): Add occasional fillers (um/uh/okay) and light turn-organization (well/so). Slight sentence splitting.\n- Level 3 (spoken, medium): Clear conversational flow. Some stance/hedges (I think/maybe). More fragmentation. Small, natural repetitions allowed.\n- Level 4 (spoken, high): Frequent interaction cues (you know/right?). More hedging. Noticeable repetition and shorter clauses, but still coherent.\n- Level 5 (spoken, very high): Strongly spontaneous. Frequent fillers + discourse markers + turn-yielding cues. More repetition and repairs. Still preserve every fact.\n\n### Semantic Preservation\n\n- Preserve Core Information: Do not add, invent, change, or omit substantive content (e.g., entities, numbers, conditions, stances).\n- Maintain Logical Integrity: Ensure the core meaning and intent are clear. While sentence structure should be simplified, the original logical order and core meaning must be maintained.\n\n### Example\n**Written Language Level 0:**\nThe asking price is $25,000, which is reasonable considering the four bedrooms.\"\n\n**Spoken Language Level 1:**\nThe asking price is $25,000. I think it is reasonable considering the four bedrooms.\n\n**Spoken Language Level 2:**\nWell, the asking price is $25,000. I think that's reasonable given the four bedrooms.\n\n**Spoken Language Level 3:** \nSo, the asking price is roughly $25,000. Um, I think that's pretty fair, you know, given it has four bedrooms.\n\n**Spoken Language Level 4:** \num, you know, the asking price is roughly $25,000. I mean, it's probably fair. you know? you got four bedrooms.\n\n**Spoken Language Level 5:** \nOkay, um, look. The price is... it's like $25,000. Yeah. And, uh, I mean it's fair it's fair because, you know, you got four bedrooms.\n\n### Let's begin\nPlease directly output the one spoken text at a specified Orality Level.\n\n**Written Language Level 0:**\nThis message originates from Consumer Services. Please provide information about the restaurant, including its price range.\n\n**Spoken Language Level 1:**\n\n",
+    "input": "",
+    "output": "hi , this is from consumer service . may i know the information about the restaurant like the price range for the restaurant .",
+    "spoken_statics": {
+      "Fillers": 0.0,
+      "Interaction": 0.0,
+      "Stance & Hedges": 0.6547,
+      "Simplification": 0.0,
+      "Repetition": 0.0,
+      "PID": 0.1429,
+      "NVR": 1.75,
+      "O_score": 0.15759778040047484,
+      "cluster": 1,
+      "level": 1
+    },
+    "written_statics": {
+      "Fillers": 0.0,
+      "Interaction": 0.0,
+      "Stance & Hedges": 0.0,
+      "Simplification": 0.0,
+      "Repetition": 0.0,
+      "PID": 0.25,
+      "NVR": 2.6667,
+      "O_score": 0.012805531832016413,
+      "cluster": 0,
+      "level": 0
+    },
+    "type": "train"
+  },
+  {
+    "source": "spkenwoz",
+    "spoken": "and clean hotel restaurants . okay . all right , wonderful . so grafton hotel restaurant is currently taking a booking . are you interested .",
+    "written": "The hotel restaurants are clean. Wonderful. The Grafton Hotel restaurant is currently accepting reservations. Are you interested?",
+    "instruction": "### Instruction\nYou are an expert conversationalist. Your task is to convert formal written language into spontaneous spoken language at a specified **Orality Level (0-5)** with **Semantic Preservation**. Please directly output the rewritten spoken text without any explanations or formatting symbols.\n\n### Orality Level Definitions\nYou must adjust the density of orality words and phrases, repetition, and sentence fragmentation based on the target level:\n\n- Level 0 (written): Formal structure. High lexical density. No fillers. No extra interaction. No repetition.\n- Level 1 (spoken, slight): Light contraction and mild simplification. Rare discourse markers. No repetition.\n- Level 2 (spoken, low): Add occasional fillers (um/uh/okay) and light turn-organization (well/so). Slight sentence splitting.\n- Level 3 (spoken, medium): Clear conversational flow. Some stance/hedges (I think/maybe). More fragmentation. Small, natural repetitions allowed.\n- Level 4 (spoken, high): Frequent interaction cues (you know/right?). More hedging. Noticeable repetition and shorter clauses, but still coherent.\n- Level 5 (spoken, very high): Strongly spontaneous. Frequent fillers + discourse markers + turn-yielding cues. More repetition and repairs. Still preserve every fact.\n\n### Semantic Preservation\n\n- Preserve Core Information: Do not add, invent, change, or omit substantive content (e.g., entities, numbers, conditions, stances).\n- Maintain Logical Integrity: Ensure the core meaning and intent are clear. While sentence structure should be simplified, the original logical order and core meaning must be maintained.\n\n### Example\n**Written Language Level 0:**\nThe asking price is $25,000, which is reasonable considering the four bedrooms.\"\n\n**Spoken Language Level 1:**\nThe asking price is $25,000. I think it is reasonable considering the four bedrooms.\n\n**Spoken Language Level 2:**\nWell, the asking price is $25,000. I think that's reasonable given the four bedrooms.\n\n**Spoken Language Level 3:** \nSo, the asking price is roughly $25,000. Um, I think that's pretty fair, you know, given it has four bedrooms.\n\n**Spoken Language Level 4:** \num, you know, the asking price is roughly $25,000. I mean, it's probably fair. you know? you got four bedrooms.\n\n**Spoken Language Level 5:** \nOkay, um, look. The price is... it's like $25,000. Yeah. And, uh, I mean it's fair it's fair because, you know, you got four bedrooms.\n\n### Let's begin\nPlease directly output the one spoken text at a specified Orality Level.\n\n**Written Language Level 0:**\nThe hotel restaurants are clean. Wonderful. The Grafton Hotel restaurant is currently accepting reservations. Are you interested?\n\n**Spoken Language Level 2:**\n\n",
+    "input": "",
+    "output": "and clean hotel restaurants . okay . all right , wonderful . so grafton hotel restaurant is currently taking a booking . are you interested .",
+    "spoken_statics": {
+      "Fillers": 0.2236,
+      "Interaction": 0.8944,
+      "Stance & Hedges": 0.0,
+      "Simplification": 0.0,
+      "Repetition": 0.0,
+      "PID": 0.2,
+      "NVR": 1.5,
+      "O_score": 0.254927124711522,
+      "cluster": 2,
+      "level": 2
+    },
+    "written_statics": {
+      "Fillers": 0.0,
+      "Interaction": 0.0,
+      "Stance & Hedges": 0.0,
+      "Simplification": 0.0,
+      "Repetition": 0.0,
+      "PID": 0.2353,
+      "NVR": 1.2,
+      "O_score": 0.017125191087889444,
+      "cluster": 0,
+      "level": 0
+    },
+    "type": "train"
+  },
+  {
+    "source": "meditod",
+    "spoken": "Alright, do you have any past medical conditions, like high blood pressure, diabetes, anything like that?",
+    "written": "Are there any preexisting medical conditions, such as hypertension, diabetes, or other chronic illnesses?",
+    "instruction": "### Instruction\nYou are an expert conversationalist. Your task is to convert formal written language into spontaneous spoken language at a specified **Orality Level (0-5)** with **Semantic Preservation**. Please directly output the rewritten spoken text without any explanations or formatting symbols.\n\n### Orality Level Definitions\nYou must adjust the density of orality words and phrases, repetition, and sentence fragmentation based on the target level:\n\n- Level 0 (written): Formal structure. High lexical density. No fillers. No extra interaction. No repetition.\n- Level 1 (spoken, slight): Light contraction and mild simplification. Rare discourse markers. No repetition.\n- Level 2 (spoken, low): Add occasional fillers (um/uh/okay) and light turn-organization (well/so). Slight sentence splitting.\n- Level 3 (spoken, medium): Clear conversational flow. Some stance/hedges (I think/maybe). More fragmentation. Small, natural repetitions allowed.\n- Level 4 (spoken, high): Frequent interaction cues (you know/right?). More hedging. Noticeable repetition and shorter clauses, but still coherent.\n- Level 5 (spoken, very high): Strongly spontaneous. Frequent fillers + discourse markers + turn-yielding cues. More repetition and repairs. Still preserve every fact.\n\n### Semantic Preservation\n\n- Preserve Core Information: Do not add, invent, change, or omit substantive content (e.g., entities, numbers, conditions, stances).\n- Maintain Logical Integrity: Ensure the core meaning and intent are clear. While sentence structure should be simplified, the original logical order and core meaning must be maintained.\n\n### Example\n**Written Language Level 0:**\nThe asking price is $25,000, which is reasonable considering the four bedrooms.\"\n\n**Spoken Language Level 1:**\nThe asking price is $25,000. I think it is reasonable considering the four bedrooms.\n\n**Spoken Language Level 2:**\nWell, the asking price is $25,000. I think that's reasonable given the four bedrooms.\n\n**Spoken Language Level 3:** \nSo, the asking price is roughly $25,000. Um, I think that's pretty fair, you know, given it has four bedrooms.\n\n**Spoken Language Level 4:** \num, you know, the asking price is roughly $25,000. I mean, it's probably fair. you know? you got four bedrooms.\n\n**Spoken Language Level 5:** \nOkay, um, look. The price is... it's like $25,000. Yeah. And, uh, I mean it's fair it's fair because, you know, you got four bedrooms.\n\n### Let's begin\nPlease directly output the one spoken text at a specified Orality Level.\n\n**Written Language Level 0:**\nAre there any preexisting medical conditions, such as hypertension, diabetes, or other chronic illnesses?\n\n**Spoken Language Level 1:**\n\n",
+    "input": "",
+    "output": "Alright, do you have any past medical conditions, like high blood pressure, diabetes, anything like that?",
+    "spoken_statics": {
+      "Fillers": 0.0,
+      "Interaction": 0.25,
+      "Stance & Hedges": 0.75,
+      "Simplification": 0.5,
+      "Repetition": 0.0,
+      "PID": 0.25,
+      "NVR": 1.3333,
+      "O_score": 0.3056398602303914,
+      "cluster": 1,
+      "level": 1
+    },
+    "written_statics": {
+      "Fillers": 0.0,
+      "Interaction": 0.0,
+      "Stance & Hedges": 0.0,
+      "Simplification": 0.0,
+      "Repetition": 0.0,
+      "PID": 0.4286,
+      "NVR": 1.3333,
+      "O_score": 0.013419241657039761,
+      "cluster": 0,
+      "level": 0
+    },
+    "type": "train"
+  },
+  {
+    "source": "house_sale",
+    "spoken": "how are you I am pretty good Okay I'm asking $250,000 for the house?",
+    "written": "The asking price for the house is $250,000.",
+    "instruction": "### Instruction\nYou are an expert conversationalist. Your task is to convert formal written language into spontaneous spoken language at a specified **Orality Level (0-5)** with **Semantic Preservation**. Please directly output the rewritten spoken text without any explanations or formatting symbols.\n\n### Orality Level Definitions\nYou must adjust the density of orality words and phrases, repetition, and sentence fragmentation based on the target level:\n\n- Level 0 (written): Formal structure. High lexical density. No fillers. No extra interaction. No repetition.\n- Level 1 (spoken, slight): Light contraction and mild simplification. Rare discourse markers. No repetition.\n- Level 2 (spoken, low): Add occasional fillers (um/uh/okay) and light turn-organization (well/so). Slight sentence splitting.\n- Level 3 (spoken, medium): Clear conversational flow. Some stance/hedges (I think/maybe). More fragmentation. Small, natural repetitions allowed.\n- Level 4 (spoken, high): Frequent interaction cues (you know/right?). More hedging. Noticeable repetition and shorter clauses, but still coherent.\n- Level 5 (spoken, very high): Strongly spontaneous. Frequent fillers + discourse markers + turn-yielding cues. More repetition and repairs. Still preserve every fact.\n\n### Semantic Preservation\n\n- Preserve Core Information: Do not add, invent, change, or omit substantive content (e.g., entities, numbers, conditions, stances).\n- Maintain Logical Integrity: Ensure the core meaning and intent are clear. While sentence structure should be simplified, the original logical order and core meaning must be maintained.\n\n### Example\n**Written Language Level 0:**\nThe asking price is $25,000, which is reasonable considering the four bedrooms.\"\n\n**Spoken Language Level 1:**\nThe asking price is $25,000. I think it is reasonable considering the four bedrooms.\n\n**Spoken Language Level 2:**\nWell, the asking price is $25,000. I think that's reasonable given the four bedrooms.\n\n**Spoken Language Level 3:** \nSo, the asking price is roughly $25,000. Um, I think that's pretty fair, you know, given it has four bedrooms.\n\n**Spoken Language Level 4:** \num, you know, the asking price is roughly $25,000. I mean, it's probably fair. you know? you got four bedrooms.\n\n**Spoken Language Level 5:** \nOkay, um, look. The price is... it's like $25,000. Yeah. And, uh, I mean it's fair it's fair because, you know, you got four bedrooms.\n\n### Let's begin\nPlease directly output the one spoken text at a specified Orality Level.\n\n**Written Language Level 0:**\nThe asking price for the house is $250,000.\n\n**Spoken Language Level 3:**\n\n",
+    "input": "",
+    "output": "how are you I am pretty good Okay I'm asking $250,000 for the house?",
+    "spoken_statics": {
+      "Fillers": 0.25,
+      "Interaction": 0.0,
+      "Stance & Hedges": 0.75,
+      "Simplification": 0.25,
+      "Repetition": 0.0,
+      "PID": 0.25,
+      "NVR": 0.2,
+      "O_score": 0.3747451668640551,
+      "cluster": 3,
+      "level": 3
+    },
+    "written_statics": {
+      "Fillers": 0.0,
+      "Interaction": 0.0,
+      "Stance & Hedges": 0.0,
+      "Simplification": 0.0,
+      "Repetition": 0.0,
+      "PID": 0.2222,
+      "NVR": 0.6667,
+      "O_score": 0.02044659900651192,
+      "cluster": 0,
+      "level": 0
+    },
+    "type": "train"
+  },
+  {
+    "source": "meditod",
+    "spoken": "Have you been feeling increased sweating and confusion? Anything like that?",
+    "written": "Have you experienced excessive sweating, confusion, or similar symptoms?",
+    "instruction": "### Instruction\nYou are an expert conversationalist. Your task is to convert formal written language into spontaneous spoken language at a specified **Orality Level (0-5)** with **Semantic Preservation**. Please directly output the rewritten spoken text without any explanations or formatting symbols.\n\n### Orality Level Definitions\nYou must adjust the density of orality words and phrases, repetition, and sentence fragmentation based on the target level:\n\n- Level 0 (written): Formal structure. High lexical density. No fillers. No extra interaction. No repetition.\n- Level 1 (spoken, slight): Light contraction and mild simplification. Rare discourse markers. No repetition.\n- Level 2 (spoken, low): Add occasional fillers (um/uh/okay) and light turn-organization (well/so). Slight sentence splitting.\n- Level 3 (spoken, medium): Clear conversational flow. Some stance/hedges (I think/maybe). More fragmentation. Small, natural repetitions allowed.\n- Level 4 (spoken, high): Frequent interaction cues (you know/right?). More hedging. Noticeable repetition and shorter clauses, but still coherent.\n- Level 5 (spoken, very high): Strongly spontaneous. Frequent fillers + discourse markers + turn-yielding cues. More repetition and repairs. Still preserve every fact.\n\n### Semantic Preservation\n\n- Preserve Core Information: Do not add, invent, change, or omit substantive content (e.g., entities, numbers, conditions, stances).\n- Maintain Logical Integrity: Ensure the core meaning and intent are clear. While sentence structure should be simplified, the original logical order and core meaning must be maintained.\n\n### Example\n**Written Language Level 0:**\nThe asking price is $25,000, which is reasonable considering the four bedrooms.\"\n\n**Spoken Language Level 1:**\nThe asking price is $25,000. I think it is reasonable considering the four bedrooms.\n\n**Spoken Language Level 2:**\nWell, the asking price is $25,000. I think that's reasonable given the four bedrooms.\n\n**Spoken Language Level 3:** \nSo, the asking price is roughly $25,000. Um, I think that's pretty fair, you know, given it has four bedrooms.\n\n**Spoken Language Level 4:** \num, you know, the asking price is roughly $25,000. I mean, it's probably fair. you know? you got four bedrooms.\n\n**Spoken Language Level 5:** \nOkay, um, look. The price is... it's like $25,000. Yeah. And, uh, I mean it's fair it's fair because, you know, you got four bedrooms.\n\n### Let's begin\nPlease directly output the one spoken text at a specified Orality Level.\n\n**Written Language Level 0:**\nHave you experienced excessive sweating, confusion, or similar symptoms?\n\n**Spoken Language Level 1:**\n\n",
+    "input": "",
+    "output": "Have you been feeling increased sweating and confusion? Anything like that?",
+    "spoken_statics": {
+      "Fillers": 0.0,
+      "Interaction": 0.3015,
+      "Stance & Hedges": 0.603,
+      "Simplification": 0.3015,
+      "Repetition": 0.0,
+      "PID": 0.1818,
+      "NVR": 0.4,
+      "O_score": 0.29178609666326766,
+      "cluster": 1,
+      "level": 1
+    },
+    "written_statics": {
+      "Fillers": 0.0,
+      "Interaction": 0.0,
+      "Stance & Hedges": 0.0,
+      "Simplification": 0.3333,
+      "Repetition": 0.0,
+      "PID": 0.3333,
+      "NVR": 1.0,
+      "O_score": 0.08908515590102266,
+      "cluster": 0,
+      "level": 0
+    },
+    "type": "train"
+  },
+  {
+    "source": "house_sale",
+    "spoken": "So, unfortunately I can't accept that offer Um the list price is 240,000 There is a little bit of flexibility Um but, it.",
+    "written": "Unfortunately, the offer cannot be accepted; the list price is $240,000, with some flexibility but limited.",
+    "instruction": "### Instruction\nYou are an expert conversationalist. Your task is to convert formal written language into spontaneous spoken language at a specified **Orality Level (0-5)** with **Semantic Preservation**. Please directly output the rewritten spoken text without any explanations or formatting symbols.\n\n### Orality Level Definitions\nYou must adjust the density of orality words and phrases, repetition, and sentence fragmentation based on the target level:\n\n- Level 0 (written): Formal structure. High lexical density. No fillers. No extra interaction. No repetition.\n- Level 1 (spoken, slight): Light contraction and mild simplification. Rare discourse markers. No repetition.\n- Level 2 (spoken, low): Add occasional fillers (um/uh/okay) and light turn-organization (well/so). Slight sentence splitting.\n- Level 3 (spoken, medium): Clear conversational flow. Some stance/hedges (I think/maybe). More fragmentation. Small, natural repetitions allowed.\n- Level 4 (spoken, high): Frequent interaction cues (you know/right?). More hedging. Noticeable repetition and shorter clauses, but still coherent.\n- Level 5 (spoken, very high): Strongly spontaneous. Frequent fillers + discourse markers + turn-yielding cues. More repetition and repairs. Still preserve every fact.\n\n### Semantic Preservation\n\n- Preserve Core Information: Do not add, invent, change, or omit substantive content (e.g., entities, numbers, conditions, stances).\n- Maintain Logical Integrity: Ensure the core meaning and intent are clear. While sentence structure should be simplified, the original logical order and core meaning must be maintained.\n\n### Example\n**Written Language Level 0:**\nThe asking price is $25,000, which is reasonable considering the four bedrooms.\"\n\n**Spoken Language Level 1:**\nThe asking price is $25,000. I think it is reasonable considering the four bedrooms.\n\n**Spoken Language Level 2:**\nWell, the asking price is $25,000. I think that's reasonable given the four bedrooms.\n\n**Spoken Language Level 3:** \nSo, the asking price is roughly $25,000. Um, I think that's pretty fair, you know, given it has four bedrooms.\n\n**Spoken Language Level 4:** \num, you know, the asking price is roughly $25,000. I mean, it's probably fair. you know? you got four bedrooms.\n\n**Spoken Language Level 5:** \nOkay, um, look. The price is... it's like $25,000. Yeah. And, uh, I mean it's fair it's fair because, you know, you got four bedrooms.\n\n### Let's begin\nPlease directly output the one spoken text at a specified Orality Level.\n\n**Written Language Level 0:**\nUnfortunately, the offer cannot be accepted; the list price is $240,000, with some flexibility but limited.\n\n**Spoken Language Level 3:**\n\n",
+    "input": "",
+    "output": "So, unfortunately I can't accept that offer Um the list price is 240,000 There is a little bit of flexibility Um but, it.",
+    "spoken_statics": {
+      "Fillers": 0.4082,
+      "Interaction": 0.4082,
+      "Stance & Hedges": 0.8165,
+      "Simplification": 0.2041,
+      "Repetition": 0.0,
+      "PID": 0.1667,
+      "NVR": 0.6667,
+      "O_score": 0.46387565815469434,
+      "cluster": 3,
+      "level": 3
+    },
+    "written_statics": {
+      "Fillers": 0.0,
+      "Interaction": 0.2357,
+      "Stance & Hedges": 0.0,
+      "Simplification": 0.0,
+      "Repetition": 0.0,
+      "PID": 0.2778,
+      "NVR": 0.8,
+      "O_score": 0.07138631513014428,
+      "cluster": 0,
+      "level": 0
+    },
+    "type": "train"
+  }
+]

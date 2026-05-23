@@ -1,0 +1,37 @@
+# Core deep-learning stack
+torch>=2.1.0
+transformers>=4.46.0
+accelerate>=0.30.0
+peft>=0.10.0
+datasets>=2.18.0
+bitsandbytes>=0.43.0  # optional, only for 8-bit fine-tuning
+
+# Generation / inference utilities
+sentencepiece>=0.1.99
+protobuf>=4.25.0
+
+# Evaluation
+bert-score>=0.3.13
+sacrebleu>=2.4.0
+rouge-score>=0.1.2
+evaluate>=0.4.1
+nltk>=3.8.1
+jieba>=0.42.1
+rouge-chinese>=1.0.3   # optional, only used by orality.eval_predictions
+
+# Orality estimator
+spacy>=3.7.0,<3.9.0    # ideadensity is built on top of spaCy
+joblib>=1.3.2
+scikit-learn>=1.3.0
+
+# Generic scientific python
+numpy>=1.26.0
+pandas>=2.1.0
+scipy>=1.11.0
+tqdm>=4.66.0
+openpyxl>=3.1.2        # xlsx I/O for CAS calibration sweep
+matplotlib>=3.8.0      # only used by mech_analysis figures
+seaborn>=0.13.0        # only used by mech_analysis heatmaps
+
+# LLM judges / API (only required for evaluator_validation/)
+openai>=1.30.0

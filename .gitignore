@@ -1,0 +1,51 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# --- Virtualenv / packaging ---
+.venv/
+.env
+build/
+dist/
+
+# --- IDE ---
+.vscode/
+.idea/
+*.swp
+
+# --- OS junk ---
+.DS_Store
+Thumbs.db
+
+# --- Experiment artefacts (regenerate locally, do NOT commit) ---
+# Cached predictions, intermediate sweeps, model checkpoints, logs.
+**/runs/
+**/results/
+**/saves/
+*.log
+*.jsonl
+!data/examples/*.jsonl
+
+# Style-vector pickles (a few hundred MB each)
+*.pt
+!mech_analysis/heads_idx/*.json
+
+# Train artefacts from accelerate / deepspeed
+accelerate_state/
+zero_to_fp32.py
+
+# --- Hugging Face / Torch / Wandb / TensorBoard caches ---
+.huggingface/
+wandb/
+runs/
+events.out.tfevents.*
+
+# --- evaluator_validation locally trained reward models ---
+evaluator_validation/models/
+evaluator_validation/phase1*/
+evaluator_validation/delta_r_*/
