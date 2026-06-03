@@ -1,6 +1,6 @@
 # Core deep-learning stack
 torch>=2.1.0
-transformers>=4.46.0
+transformers==4.46.3
 accelerate>=0.30.0
 peft>=0.10.0
 datasets>=2.18.0
