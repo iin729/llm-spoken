@@ -368,21 +368,6 @@ PRs and issues are welcome — see [CONTRIBUTING] (coming soon) for the dev work
 
 ---
 
-## 📌 Cite and share
-
-```bibtex
-@inproceedings{llm-spoken-2026,
-  title     = {Unlocking the Spoken Style: Mechanistic Localization and
-               Lightweight Control of Orality in LLMs},
-  author    = {Anonymous},
-  booktitle = {Proceedings of xxx},
-  year      = {2026}
-}
-```
-
-Please also cite the source corpora (SpokenWoZ, MediTOD, Bargaining) when reporting WSPairs numbers — see [`data/README.md`](data/README.md).
-
----
 
 ## 🙏 Acknowledgements
 
@@ -394,20 +379,4 @@ This work builds on the open scientific stack: 🤗 Transformers, PEFT, BERTScor
 
 MIT — see [LICENSE](LICENSE). The WSPairs annotation layer (orality levels + 7-feature scores) is also MIT; the underlying transcripts retain their source corpora's licenses.
 
----
 
-<div align="center">
-
-### Like the work?
-
-<a href="https://github.com/iin729/llm-spoken/stargazers">
-  <img src="https://img.shields.io/badge/⭐_Star_this_repo-181717?style=for-the-badge&logo=github&logoColor=white" alt="Star this repo">
-</a>
-&nbsp;
-<a href="https://twitter.com/intent/tweet?text=Spoken%20style%20in%20LLMs%20lives%20in%20a%20sparse%20band%20of%2035%20late-layer%20attention%20heads.%20Steering%20just%200.004%25%20of%20the%20parameters%20matches%20full%20SFT.&url=https%3A%2F%2Fgithub.com%2Fiin729%2Fllm-spoken">
-  <img src="https://img.shields.io/badge/Share_on_X-000000?style=for-the-badge&logo=x&logoColor=white" alt="Share on X">
-</a>
-
-<sub>It really helps us reach more researchers building voice agents.</sub>
-
-</div>
