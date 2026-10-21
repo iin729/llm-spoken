@@ -243,7 +243,7 @@ Inter-annotator agreement Fleiss' κ = 0.64 / 0.72 (Likert), Kendall's W = 0.78 
 ## 🚀 Quick start
 
 ```bash
-git clone xxx
+git clone https://github.com/tjunlp-lab/llm-spoken
 cd llm-spoken
 pip install -r requirements.txt
 python -m spacy download en_core_web_sm
